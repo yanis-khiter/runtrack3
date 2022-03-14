@@ -1,17 +1,15 @@
 
-function afficherjourssemaine() {
+function afficherjourssemaines() {
+
+for (var i = 0; i < jourssemaines.length; i++) {
+
+console.log(jourssemaines[i]);
+
+}
 }
 
-var jourssemaines=new Array();
+var jourssemaines = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
 
-jourssemaines[0]="Lundi";
-jourssemaines[1]="Mardi";
-jourssemaines[2]="Mercredi";
-jourssemaines[3]="Jeudi";
-jourssemaines[4]="Vendredi";
-jourssemaines[5]="Samedi";
-jourssemaines[6]="Dimanche";
+afficherjourssemaines();
 
-var longueur=jourssemaines.length;
 
-console.table(jourssemaines);
